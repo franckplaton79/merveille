@@ -1,0 +1,21 @@
+/* L'ŒUVRE — module merveilles (aile VIII) */
+.fiche{border-top:1px solid rgba(184,135,59,.25);padding-block:3rem}
+.fiche__titre{font-family:var(--police-titre,serif);color:#B8873B}
+.fiche__visuel img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:6px}
+.fiche__visuel figcaption{font-size:.85rem;opacity:.75;margin-top:.4rem}
+.chiffres{list-style:none;display:grid;gap:.8rem;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));padding:0}
+.chiffres li{background:rgba(184,135,59,.08);border:1px solid rgba(184,135,59,.25);border-radius:6px;padding:.9rem}
+.chiffres__v{display:block;font-size:1.9rem;font-weight:700;color:#B8873B;font-variant-numeric:tabular-nums}
+.statut{display:inline-block;padding:.2rem .7rem;border-radius:999px;border:1px solid currentColor;font-size:.8rem;letter-spacing:.06em}
+.statut--en-production{color:#7fb069}.statut--prototype{color:#d9a441}.statut--recherche{color:#7aa2f7}
+.retour summary{cursor:pointer;color:#B8873B;font-weight:600;padding:.6rem .9rem;border:1px dashed rgba(184,135,59,.5);border-radius:6px;list-style-position:inside}
+.retour[open] summary{border-style:solid}
+.retour p{padding:.8rem .9rem 0}
+.corps--honnete{border-left:3px solid #d9a441;padding-left:1rem;font-style:italic}
+.verset{border-left:3px solid #B8873B;padding-left:1rem;font-style:italic;margin:1rem 0}
+.sources{font-size:.9rem;opacity:.9}
+.liens .bouton{margin-right:.4rem}
+@media (prefers-reduced-motion:reduce){.chiffres__v{transition:none}}
+@media print{.entete,.pied,.ambiance,.print-btn{display:none!important}.fiche{break-inside:avoid}}
+/* Explorations progressives : les choix et explications restent utilisables sans script. */
+.exploration{margin:2.5rem 0;padding:clamp(1.2rem,3vw,2.5rem);border:1px solid #7a613c;background:linear-gradient(135deg,#1a211f,#111820);border-radius:.35rem}.exploration__eyebrow{font-size:.73rem;letter-spacing:.15em;color:#e4b86f}.exploration h3{font-family:Georgia,serif;font-size:clamp(1.4rem,3vw,2rem);margin:.5rem 0}.exploration>p{max-width:70ch;line-height:1.6}.exploration fieldset{border:0;padding:0;margin:1.3rem 0}.exploration legend{font-weight:600;margin-bottom:.9rem}.exploration__etape{display:grid;grid-template-columns:32px minmax(0,1fr);column-gap:.5rem;align-items:center;border-top:1px solid #4a4940;padding:.5rem 0}.exploration__etape input{width:24px;height:24px;accent-color:#d7ae6a}.exploration__etape label{min-height:44px;display:flex;align-items:center;gap:.8rem;cursor:pointer}.exploration__etape label span{font-size:.75rem;letter-spacing:.08em;color:#dfb871}.exploration__etape p{grid-column:2;padding:.5rem 0 1rem;margin:0;line-height:1.6;max-width:68ch}.exploration__etape input:not(:checked)~p{display:none}.exploration__hint{font-size:.82rem;opacity:.8}.exploration input:focus-visible{outline:3px solid #efd19e;outline-offset:3px}

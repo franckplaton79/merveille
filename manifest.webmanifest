@@ -1,0 +1,36 @@
+{
+  "name": "L'ŒUVRE — Musée de la Création",
+  "short_name": "L'ŒUVRE",
+  "description": "Un musée numérique francophone : de l'univers à l'atome, les découvertes scientifiques les plus précises, et ce qu'elles révèlent du Créateur, Jéhovah.",
+  "lang": "fr",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#05070D",
+  "theme_color": "#05070D",
+  "categories": [
+    "education",
+    "science"
+  ],
+  "icons": [
+    {
+      "src": "assets/img/icones/favicon.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/img/icones/icone-192.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/img/icones/icone-512.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "maskable"
+    }
+  ]
+}
